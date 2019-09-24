@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RestController
 public class HelloController {
     
-    @RequestMapping("/")
+    @RequestMapping("/api")
     public String index() {
         return "Hello from Spring Boot! Testing a new version";
     }   
